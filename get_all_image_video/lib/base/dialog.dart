@@ -4,10 +4,7 @@ import 'package:get_all_image_video/widget/text_style.dart';
 class BaseDialog extends StatelessWidget {
   Dialog dialog;
    final String title, description;
-  BaseDialog({
-    @required this.title,
-    @required this.description,
-  });
+  BaseDialog({@required this.title, @required this.description,});
 
   BuildContext context;
   @override
